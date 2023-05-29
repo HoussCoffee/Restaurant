@@ -316,6 +316,10 @@ h1, .h3 {
    align-items: center;
 }
 
+.note h3{
+   font-size: 15px;
+   font-family: 'Alexandria', sans-serif;
+}
 .delivery-text {
    font-size: 33px;
    font-weight: 700;
