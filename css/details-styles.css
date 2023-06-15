@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@1,500&display=swap');
 
 *{
     /* font-family: 'Nunito', sans-serif; */
-    font-family: 'Satisfy', cursive;
+    /* font-family: 'Satisfy', cursive; */
+    font-family: 'Ubuntu', sans-serif;
 }
 .css-button-fully-rounded--red {
     min-width: 54px;
