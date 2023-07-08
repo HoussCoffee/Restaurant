@@ -18,9 +18,11 @@
     display: inline-block;
     outline: none;
     border-radius: 20px;
-    border: 2px solid red;
-    background: red;
+    border: 2px solid rgba(255, 0, 0, 0.70);
+    /* background: red; */
+    background: rgba(255, 0, 0, 0.70);
     box-shadow: 0 0.5rem 1rem black;
+    text-decoration: none;
   }
 .css-button-fully-rounded--red:hover {
     background: #fff;
@@ -100,9 +102,12 @@ ul {
 
    /* border-radius: 100px;
    padding:3rem 2rem; */
-   background: white;
+   /* background: white; */
+   background: #ffffffeb;
    /* outline: red; */
    border: 3.5px dashed red;
+   padding-left: 10px;
+   padding-right: 10px;
     /* background-color: red;
     width: 100%;
     margin: 0;
@@ -129,6 +134,7 @@ ul {
     height: 32px;
     border-radius: 8px;
 }
+
 .menu {
     letter-spacing: 1px;
     font-size: 17px;
@@ -144,10 +150,23 @@ ul {
     top: 0;
     margin: 2% auto;
     margin-top: 0;
-    background-color: rgba(255, 0, 0, 0.87);
+    /* background-color: rgba(255, 0, 0, 0.87); */
+    background-color:rgba(255, 0, 0, 0.60);
     padding: 2% 5% 2% 10%;
     z-index: 0;
 }
+
+/* Update 07 - 07 - 2023 */
+
+.ingredients {
+    font-size: 13px;
+    /* background-color: rgb(255, 183, 0); */
+    border-radius: 100px 2px 100px 1px;
+}
+.price {
+    color: black;
+}
+/* end updatte */
 .combinationDiv {
     position: relative;
 }
@@ -163,3 +182,26 @@ ul {
     top: 10%;
     left: -170px;
 } */
+
+/* 07 - 07 - 2023 Update */
+#tab tr td:first-child {
+    text-align: left!important;
+}
+#tab tr td:nth-child(2) {
+    text-align: right!important;
+}
+hr {
+    color: black;
+    height: 1px;
+}
+
+#tabtwo tr td:first-child {
+    text-align: left!important;
+}
+
+#tabtwo tr td:nth-child(2),
+#tabtwo tr td:nth-child(3),
+#tabtwo tr td:nth-child(4) {
+    text-align: right!important;
+}
+/* End 07 - 07 - 2023 Update */
